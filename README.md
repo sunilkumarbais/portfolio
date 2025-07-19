@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio - Sunil Kumar Bais
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a backend and JavaScript developer. Built using HTML, CSS, and JavaScript, it serves as a digital introduction to who I am and what I can do.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a JavaScript developer. Built using HTML, CSS, and JavaScript, it serves as a digital introduction to who I am and what I can do.
 
 ## 🚀 Live Demo
 
