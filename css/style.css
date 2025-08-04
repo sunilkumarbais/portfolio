@@ -90,6 +90,7 @@ section {
   animation: animatedwords 16s infinite alternate-reverse  ease;
 }
 
+
 /* Animation keyframes */
 @keyframes animatedwords {
   0%, 10% {
@@ -147,6 +148,21 @@ section {
   border-radius: 10px;
 }
 
+/* Skills Section */
+.programming{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands{
+  font-size: 50px;
+}
+
+.fa-square-js{
+  color: #222;
+}
+
 /* Project Cards */
 
 .card img{
@@ -193,6 +209,10 @@ footer {
   .about-row{
     flex-direction: column;
   }
+
+.fa-brands{
+  margin-top: 20px;
+}
 
   footer{
     border-radius: 0;
