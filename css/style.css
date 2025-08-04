@@ -155,7 +155,7 @@ section {
   align-items: center;
 }
 
-.fa-brands{
+.fa-square-git, .tool-github, .fa-node-js, .fa-css3-alt, .fa-html5, .fa-square-js{
   font-size: 50px;
 }
 
@@ -199,7 +199,11 @@ footer {
 
 @media (max-width: 768px) {
   .hero-section h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+
+  .main-image img{
+    width: 70%;
   }
 
   .contact-image{
@@ -210,11 +214,10 @@ footer {
     flex-direction: column;
   }
 
-.fa-brands{
-  margin-top: 20px;
-}
+
 
   footer{
     border-radius: 0;
   }
+  
 }
