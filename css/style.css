@@ -141,11 +141,13 @@ section {
 .about-row {
   display: flex;
   justify-content: space-evenly;
+  padding: 10px 0 10px 10px;
   align-items: center;
 }
 
 .about-row img{
   border-radius: 10px;
+  background:none;
 }
 
 /* Skills Section */
@@ -164,7 +166,11 @@ section {
 }
 
 /* Project Cards */
-
+#projects .card:hover {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  transition: filter 0.3s ease, transform 0.3s ease;
+  transform: translateY(-5px);
+}
 .card img{
   height: 20rem;
 }
@@ -212,6 +218,8 @@ footer {
 
   .about-row{
     flex-direction: column;
+    padding: 10px;
+    gap: 20px;
   }
 
 
