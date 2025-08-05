@@ -157,7 +157,7 @@ section {
   align-items: center;
 }
 
-.fa-square-git, .tool-github, .fa-node-js, .fa-css3-alt, .fa-html5, .fa-square-js{
+.fa-square-git, .tool-github, .fa-node-js, .fa-css3-alt, .fa-html5, .fa-square-js, .fa-react{
   font-size: 50px;
 }
 
@@ -212,17 +212,16 @@ footer {
     width: 70%;
   }
 
-  .contact-image{
-    width: 100%;
-  }
-
   .about-row{
     flex-direction: column;
     padding: 10px;
     gap: 20px;
   }
 
+  .frontend-skills, .bakend-skills, .database-skills, .tools-skills{
+    margin-top: 40px;
 
+  }
 
   footer{
     border-radius: 0;
