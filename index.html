@@ -1,235 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio</title>
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Sunil Kumar Bais</title>
 
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
 <body>
-  <header class=" container  sticky-top">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+
+  <!-- Navbar -->
+  <header class="container sticky-top">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="image/profile-image.jpg" alt="profile-image"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#home">
+          <img src="image/profile-image.jpg" alt="Profile Image"/>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" id="searchBox" type="search" placeholder="Search" />
-            <button class="btn btn-outline-success" id="searchBtn" type="submit">Search</button>
+          <form class="d-flex">
+            <input id="searchBox" class="form-control me-2" type="search" placeholder="Search"/>
+            <button id="searchBtn" class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
   </header>
 
-  <section id="home" class=" container hero-section">
-    <div class="mt-5">
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="container hero-section animate-on-scroll ">
       <div>
         <h1>Welcome to my <span>Portfolio</span></h1>
         <h3 class="knowledge">
-          I have Knowledge of
-          <span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Bootstrap</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MongoDB</span>
-            <span>RESTful API's</span>
-          </span>
+          I have Knowledge of <span class="typing-skill"></span>
         </h3>
-        <p>I'm Web Developer</p>
+        <p>I'm a Web Developer</p>
       </div>
       <div class="main-image">
-        <img src="image/profile-image.jpg" alt="">
+        <img src="image/profile-image.jpg" alt="Profile Image"/>
       </div>
-    </div>
-  </section>
+      <div class="scroll-down"><i class="fa-solid fa-angles-down"></i></div>
+    </section>
 
-  <section id="about" class="container about-section border px-2 pb-0 border-1">
-    <h2 class="text-center fw-bolder my-5 ">About Us</h2>
-    <div class="about-row bg-secondary-subtle rounded-3">
-      <div class="me-md-3">
-        <h4>Introduction:</h4>
-        My name is <strong>Sunil Kumar Bais</strong>. <br>
-        I am from <strong>Singrauli, Madhya Pradesh </strong> . <br>
-        I have completed my <strong> B.Tech in Electrical and Electronics Engineering </strong> from Bhopal. <br>
-        I am interested in web development and have knowledge of <strong>JavaScript </strong>. <br>
-        I have also completed training in <strong>Full Stack Development </strong> . <br>
-        I want to work in a challenging environment where I can continue learning and enhance my skills. <br>
-        That&#8217;s all about me. Thank you.
+    <!-- About Section -->
+    <section id="about" class="container about-section animate-on-scroll">
+      <h2 class="text-center fw-bolder my-5">About</h2>
+      <div class="about-row">
+        <div>
+          <h4>About me</h4>
+          <p>
+            I&apos;m <strong>Sunil Kumar Bais</strong>, a passionate Web Developer from <strong> Singrauli, Madhya Pradesh</strong>. I hold a B.Tech in <strong>Electrical and Electronics Engineering</strong> from Bhopal, and I specialize in crafting modern, responsive, and user-friendly web applications. With strong expertise in <strong> JavaScript </strong> and hands-on experience in <strong> Full Stack Development</strong>, I thrive in creating solutions that are both functional and visually appealing. My goal is to contribute to a challenging and innovative environment where I can continue to learn, grow, and deliver impactful digital experiences.
+          </p>
+          <h5>Resume:</h5>
+          <p>You can download my resume below.</p>
+          <a href="resume.pdf" download class="btn btn-success">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+        <div>
+          <img src="image/avatar.png" alt="Sunil Kumar Bais" class="img-fluid"/>
+        </div>
+      </div>
+    </section>
 
-        <h5 class="mt-4">Resume:</h5>
-        <p class="mb-0">You can download my resume by clicking the button below.</p>
-        <a href="resume.pdf" download class="btn btn-success mt-3">
-          <i class="fa-solid fa-arrow-up"></i> Download Resume
-        </a>
+    <!-- Skills Section -->
+    <section id="skills" class="container skills-section animate-on-scroll py-5">
+      <h2 class="my-5 text-center fw-bolder">My Skills</h2>
+      <div class="skills-card px-3">
+        <!-- Programming -->
+        <div class="programming row mb-4 p-md-3">
+          <h5 class="col-md-4 text-center text-md-start">Programming</h5>
+          <div class="row col-md-8 text-center">
+            <div class="col-3 skill-tooltip" data-skill="HTML"><i class="fa-brands fa-html5" style="color:#af3128;"></i></div>
+            <div class="col-3 skill-tooltip" data-skill="CSS"><i class="fa-brands fa-css3-alt" style="color:#0b5be5;"></i></div>
+            <div class="col-3 skill-tooltip" data-skill="JavaScript"><i class="fa-brands fa-square-js" style="color:#aba72e;"></i></div>
+            <div class="col-3 skill-tooltip" data-skill="React"><i class="fa-brands fa-react" style="color:#63E6BE;"></i></div>
+          </div>
+        </div>
+        <hr>
+        <!-- Backend -->
+        <div class="programming row mb-4 p-md-3">
+          <h5 class="col-md-4 text-center text-md-start">Backend</h5>
+          <div class="row col-md-8 text-center">
+            <div class="col-6 col-md-4 skill-tooltip" data-skill="Node.js"><i class="fa-brands fa-node-js" style="color:#4eae47;"></i></div>
+            <div class="col-6 col-md-4 skill-tooltip" data-skill="Express.js">
+              <img src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js" width="48" height="52"/>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- Database -->
+        <div class="programming row mb-4 p-md-3">
+          <h5 class="col-md-4 text-center text-md-start">Database</h5>
+          <div class="row col-md-8 text-center">
+            <div class="col-md-4 skill-tooltip" data-skill="MongoDB">
+              <img src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb" width="48" height="52"/>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- Tools -->
+        <div class="programming row mb-4 p-md-3">
+          <h5 class="col-md-4 text-center text-md-start">Tools</h5>
+          <div class="row col-md-8 text-center">
+            <div class="col-4 skill-tooltip" data-skill="Git"><i class="fa-brands fa-square-git" style="color:#ff5a3d;"></i></div>
+            <div class="col-4 skill-tooltip" data-skill="GitHub"><i class="fa-brands fa-github" style="color:#3c6dc3;"></i></div>
+            <div class="col-4 skill-tooltip" data-skill="VS Code">
+              <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="vscode" width="48" height="52"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="container project-section animate-on-scroll py-5">
+      <h2 class="text-center fw-bolder my-5">Projects</h2>
+      <div class="row col- row-cols-md-3 row-cols-lg-4 g-4">
+        <!-- Each project card -->
+        <!-- Todo App -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card">
+            <img src="image/todo.jpg" class="card-img-top" alt="Todo Project"/>
+            <div class="card-body">
+              <h5 class="card-title">Todo-List</h5>
+              <p class="card-text">Technology: React</p>
+              <a href="https://sunilkumarbais.github.io/todo-react-app/" class="btn btn-primary">Go Live</a>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card">
+            <img src="image/portfolio.png" class="card-img-top" alt="Portfolio"/>
+            <div class="card-body">
+              <h5 class="card-title">My Portfolio</h5>
+              <p class="card-text">Technology: HTML, CSS, JS</p>
+              <a href="https://sunilkumarbais.github.io/portfolio/" class="btn btn-primary">Go Live</a>
+            </div>
+          </div>
+        </div>
+        <!-- Wanderlust -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card">
+            <img src="image/major-project-image.jpg" class="card-img-top" alt="Wanderlust Project"/>
+            <div class="card-body">
+              <h5 class="card-title">Wanderlust</h5>
+              <p class="card-text">Technology: Node.js, Express, MongoDB</p>
+              <a href="https://majorproject-vien.onrender.com" class="btn btn-primary">Go Live</a>
+            </div>
+          </div>
+        </div>
+        <!-- Calculator -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card">
+            <img src="image/calculator.webp" class="card-img-top" alt="Calculator Project"/>
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">Technology: HTML, CSS, JS</p>
+              <a href="https://github.com/sunilkumarbais/Calculator" class="btn btn-primary">Go GitHub</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="image/avatar.png" class="img-fluid" alt="Photo">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="container project-section px-2 py-5 border border-1">
-    <h2 class="my-5 text-center fw-bolder">My Skills</h2>
-    <div class="skills-card w-100 px-3 ">
-      <div class="f-programming programming row mb-4  p-md-3">
-        <h5 class="col-md-4 text-center text-md-start ">Programming</h5>
-        <div class="frontend-skills row col-md-8 text-center text-md-start p-0">
-          <div class="col-3"><i class="fa-brands fa-html5" style="color: #af3128;"></i></i></div>
-          <div class="col-3 "><i class="fa-brands fa-css3-alt" style="color: #0b5be5;"></i></div>
-          <div class="col-3"><i class="fa-brands fa-square-js" style="color: #aba72e;"></i></div>
-          <div class="col-3"><i class="fa-brands fa-react" style="color: #63E6BE;"></i></div>
+    <!-- Contact -->
+    <section id="contact" class="container contact-section animate-on-scroll py-5">
+      <h2 class="text-center fw-bolder mb-3">Contact Me</h2>
+      <form action="https://formspree.io/f/mzzvpknr" method="post" class="row needs-validation" novalidate>
+        <div class="col-lg-8 offset-lg-2 bg-body-secondary rounded-2 py-4">
+          <div class="mb-3">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required/>
+            <div class="invalid-feedback">Name is required</div>
+          </div>
+          <div class="mb-3">
+            <label for="email">Enter Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required/>
+            <div class="invalid-feedback">Email is required</div>
+          </div>
+          <div class="mb-3">
+            <label for="subject">Enter Subject:</label>
+            <input type="text" id="subject" name="subject" class="form-control" required/>
+            <div class="invalid-feedback">Subject is required</div>
+          </div>
+          <div class="mb-3">
+            <label for="message">Enter Message:</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+            <div class="invalid-feedback">Message is required</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-      </div>
-      <hr>
-      <div class="b-programming programming row mb-4  p-md-3">
-        <h5 class="col-md-4 text-center text-md-start">Backend</h5>
-        <div class="bakend-skills row col-md-8 text-center text-md-start p-0 ">
-          <div class="col-6 col-md-4 "><i class="fa-brands fa-node-js" style="color: #4eae47;"></i></div>
-          <div class="col-6 col-md-4 "><img width="48" height="52" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/></div>
-        </div>
-      </div>
-      <hr>
-      <div class="d-programming programming row mb-4 p-md-3">
-        <h5 class="col-md-4 text-center text-md-start">Database</h5>
-        <div class="database-skills row col-md-8 text-center text-md-start p-0">
-          <div class="col-md-4 p-0"><img width="48" height="52" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/></div>
-        </div>
-      </div>
-      <hr>
-      <div class="t-programming programming row mb-4 p-md-3">
-        <h5 class="col-md-4 text-center text-md-start">Tools</h5>
-        <div class="tools-skills row col-md-8 text-center text-md-start p-0">
-          <div class="col-4 "><i class="fa-brands fa-square-git" style="color: #ff5a3d;"></i></div>
-          <div class="col-4 "><i class="fa-brands fa-github tool-github" style="color: #3c6dc3;"></i></div>
-          <div class="col-4 "><img width="48" height="52" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/></div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </form>
+    </section>
+  </main>
 
-  <section id="projects" class="container project-section px-2 border border-1">
-    <h2 class="mt-5 mb-3 text-center fw-bolder">Projects</h2>
-    <div class="row row-cols-md-2 row-cols-lg-3 ">
-      <div class="col-md-6">
-        <div class="card my-4">
-          <img src="image/calculator.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Calculator ( Mini-Project )</h5>
-            <p class="card-text">Technology : Html, Css and JavaScript</p>
-            <a href="https://github.com/sunilkumarbais/Calculator" class="btn btn-primary">Go Github</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card my-4">
-          <img src="image/portfolio.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">My Portfolio</h5>
-            <p class="card-text">Technology : Html, Css and JavaScript</p>
-            <a href="https://sunilkumarbais.github.io/portfolio/" class="btn btn-primary">Go Live</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card my-4 ">
-          <img src="image/major-project-image.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Wanderlust ( Major-Project )</h5>
-            <p class="card-text">Technology : Node.js, Express.js, MongoDB, etc.  </p>
-            <a href="https://majorproject-vien.onrender.com" class="btn btn-primary">Go Live</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 ">
-        <div class="card mt-4">
-          <img src="image/todo.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Todo-List ( Project )</h5>
-            <p class="card-text">Technology : React</p>
-            <a href=" https://sunilkumarbais.github.io/todo-react-app/" class="btn btn-primary">Go Live</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="container contact-section border border-1 px-2">
-    <h2 class="text-center fw-bolder my-5 ">Contact Us</h2>
-    <form action="https://formspree.io/f/mzzvpknr" method="post" class="row  needs-validation " novalidate>
-      <div class="col-lg-8 offset-lg-2 bg-body-secondary rounded-2 py-3 ">
-        <div class="mb-3">
-          <label for="name" class="form-label">Enter Name :</label>
-          <input type="text" name="name" id="name" class="form-control border-1 border-secondary"
-            placeholder="Enter Name" required>
-          <div class="invalid-feedback">
-            Name must be required
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="email">Enter Email :</label>
-          <input type="email" name="email" id="email" class="form-control border-1 border-secondary"
-            placeholder="Enter email" required>
-          <div class="invalid-feedback">
-            Email must be required
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="subject">Enter Subject :</label>
-          <input type="text" name="subject" id="subject" class="form-control border-1 border-secondary"
-            placeholder="Website Design / Hiring" required>
-          <div class="invalid-feedback">
-            Subject must be required
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="message">Enter Message :</label>
-          <textarea type="text" name="message" id="message" class="form-control border-1 border-secondary"
-            placeholder="Tell me more about your project..." required></textarea>
-          <div class="invalid-feedback">
-            Message must be required
-          </div>
-        </div>
-        <div class="row mx-1">
-          <button type="submit" class="btn btn-primary form-s-button col-12 col-md-2">Submit</button>
-        </div>
-      </div>
-    </form>
-  </section>
-
-  <footer class="container text-white py-3 px-2 border border-1">
-    <p class="m-0">&copy;Portfolio 2025 Social media link</p>
+  <!-- Footer -->
+  <footer class="container text-white py-3 px-3">
+    <p class="m-0">&copy; Portfolio 2025 | Social Links</p>
     <div class="footer-link">
       <a href="https://www.instagram.com/coding_with_sunil"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/sunilkumarbais"><i class="fa-brands fa-linkedin"></i></a>
@@ -237,10 +225,8 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
-
 </html>
